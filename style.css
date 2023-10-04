@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* Warna latar belakang body */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #8bcffc;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(70, 28, 255, 0.986);
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #000000; /* Warna border */
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #5254ff; /* Warna latar belakang header tabel */
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 36px;
+    color: #333;
+}
+
+.contact-form {
+    margin-top: 50px;
+    background-color: #3498db; /* Warna latar belakang formulir */
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffffff; /* Warna teks label formulir */
+}
+
+.form-group input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #2980b9; /* Warna border input formulir */
+    border-radius: 5px;
+}
+
+.form-group button {
+    background-color: #2980b9; /* Warna tombol formulir */
+    color: #43d1f5;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.form-group button:hover {
+    background-color: #3498db;
+}
+.form-group button:hover {
+    background-color: #3498db;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.slider img {
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.slider img:hover {
+    opacity: 0.7;
+}
+table tr:hover {
+    background-color: #f2f2f2;
+    transition: background-color 0.3s ease;
+}
